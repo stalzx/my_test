@@ -1,0 +1,9 @@
+n = int(input())
+total = 0
+sp = []
+for i in range(n):
+    l = int(input())
+    total += l
+    sp.append(total)
+    total = l
+print(sp[1:])
